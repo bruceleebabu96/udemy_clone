@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: solid 1px black;
+    align-items: center;
+
+}
+
+.navbar__s1__title {
+    color: #A435F0;
+}
+.navbar__s2
+{
+    border: solid 1px black;
+    width: 60%;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+.navbar__s2 input
+{
+    width: 100%;
+    border: none;
+    font-size: 16px;
+}
+
+.navbar__s2 input:focus
+{
+    outline: none;
+}
+
+.navbar__s3
+{
+    display: flex;
+    gap: 10px;
+    
+}
+.categories
+{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid 1px black;
+padding: 10px;
+
+}
+
+.categories p
+{
+    background-color: #A435F0;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    
+    
+}
+.sale-image img
+{
+    width: 100%;
+}
+.recommended
+{
+    padding: 10px;
+}
+.course-card
+{
+    width: 350px;
+}
+.course-card img
+{
+    width: 100%;
+    height: 60%;
+}
+.recommended__container
+{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.topics
+{
+    padding: 10px;
+}
+.topic__container
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    
+}
+
+.topic__container p
+{
+ padding: 10px;
+ border: solid gray;
+flex-grow: 1;
+flex-basis: 25%;
+
+}
+.popular
+{
+    padding: 10px;
+    
+}
+
+.popular__container
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.footnote
+{
+    
+        background-color: black;
+    color: white;
+    padding: 30px;
+    
+
+}
+.footnote__one
+{
+    display: flex;
+    gap: 20px;
+}
+.footnote__one p
+{
+    padding: 10px;
+}
+
+.footnote__two
+{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
