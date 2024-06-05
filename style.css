@@ -17,7 +17,10 @@ body {
     padding: 10px;
     border-bottom: solid 1px black;
     align-items: center;
-
+    top: 0;
+    position: sticky;
+    background-color: white;
+    z-index: 1;
 }
 
 .navbar__s1__title {
@@ -39,6 +42,7 @@ body {
     width: 100%;
     border: none;
     font-size: 16px;
+    background-color: transparent;
 }
 
 .navbar__s2 input:focus
@@ -50,8 +54,35 @@ body {
 {
     display: flex;
     gap: 10px;
+
     
 }
+/* My Learning Popup */
+.mylearning
+{
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.mylearning__popup
+{
+    position: absolute;
+    background-color: white;
+    border: solid 1px black;
+    width: 100px;
+    padding: 10px;
+    left: 0px;
+    top: 150%;
+    display: none;
+    
+}
+
+.mylearning:hover .mylearning__popup
+{
+    display: block;
+}
+
 .categories
 {
     display: flex;
@@ -73,7 +104,24 @@ padding: 10px;
 .sale-image img
 {
     width: 100%;
+    
+
 }
+.sale-image
+{
+    position: relative;
+}
+
+.sale-image__offer
+{
+    top: 25%;
+    left: 10%;
+    position: absolute;
+    border: solid black 2px;
+    padding: 20px;
+    background-color: white;
+}
+
 .recommended
 {
     padding: 10px;
